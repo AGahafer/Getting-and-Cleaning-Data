@@ -94,3 +94,6 @@ for(i in  1:30){
 }
 colnames(TidyData)[colnames(TidyData)=="V1"]<-"Subject"
 colnames(TidyData)[colnames(TidyData)=="V1.1"]<-"Activity"
+
+
+write.table(TidyData,file="tidydata.txt",row.name=FALSE)
