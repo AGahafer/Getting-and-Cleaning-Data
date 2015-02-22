@@ -1,0 +1,3 @@
+# Getting-and-Cleaning-Data
+In the run_Anaysis.R R script, the first thing I did was bring in my data. Then I combined it all into 1 data set. Then I 
+replaced the activity code numbers in the combo data frame with the label that matched to the code. Then I put the column names in the respective columns. Next I used the grep command to find the mean and standard dev columns that I needed for the data set. Then I made my tinydata set by using a nested for loop. In my for loop which find the mean of the proper variables for each subject and activity. Then it builds into a data frame. Finally I printed into a tidydata txt file. 
